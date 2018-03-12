@@ -1,29 +1,34 @@
-primary
-primary-light
-primary - dark
 
-secondary
-secondary-light
-secondary-dark
+.red{background-color: rgb(224, 16, 16);}
+.blue{background-color: blue;}
+.green{background-color: rgb(93, 179, 93)}
+.side-bar{background-color: chocolate}
 
-accent
-accent-light
-accent-dark
+.primary{color: blue;}
+.primary-light{color: lightblue;}
+.primary-dark{color: darkblue;}
 
-background
-backgound-light
-background-dark
+.secondary{color: #cc9900;}
+.secondary-light{color: #ccff00;}
+.secondary-dark{ color:#cc9900}
 
-background 2
-background 2-light
-background 2-dark
+.accent{color: #2460ce}
+.accent-light{color:  #6f91f0}
+.accent-dark{color: #063664}
 
-info blaa
-info-light
-info-dark
+.background{color:  #666666}
+.backgound-light{color:  #6666cc}
+.background-dark{color: #666600}
 
-sucsess
-sucsess
-warning
-danger
-inactive -graa
+.background-2{color: #66cc00}
+.background-2-light{color: #66cc00}
+.background-2-dark{color: #66cc00}
+
+.info blaa{color: #3300ff}
+.info-light{color: #3366ff}
+.info-dark{color:  #3300cc}
+
+.sucsess{color: #66cc00}
+.warning{color:  #ccff00}
+.danger{color: #ff0033}
+.inactive -graa{color: #99ffff}
