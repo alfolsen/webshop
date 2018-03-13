@@ -31,16 +31,3 @@ grid-column: 2 /4;
     width: 100vw;
 }
 
-/*flex*/
-
-.flex-row{
-    display: flex;
-    flex: row; 
-}
-.flex-column{
-    display: flex;
-    flex: row;
-}
-
-.flex-wrap{flex-wrap: wrap;
-}
