@@ -10,6 +10,12 @@
     grid-template-rows:  8%  1fr 10% 1fr;
     grid-template-columns: 5%  1fr 1fr 1fr;
 }
+.layout-horizontal-split{
+    display: grid;
+    height: 100%;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    }
 .top{
 grid-row: 1 / 1;
 grid-column: 1  / 4;
@@ -22,10 +28,73 @@ grid-column: 1  / 4;
 grid-row: 2 / 3;
 grid-column: 2 /4;
 }
+.middle-full{
+    grid-row: 2 / 3;
+    grid-column: 1 /4;
+    }
 .bottom{
 grid-row: 3 / 4;
 grid-column: 2 /4;
 }
+
+/*Flexbox*/
+
+.flex-row{
+    display: flex;
+    flex: row; 
+}
+.flex-column{
+    display: flex;
+    flex: row;
+}
+.flex-justify-center{
+    justify-content: center;
+}
+.flex-wrap{flex-wrap: wrap;
+}
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px;
+    padding: 0px;
+    box-shadow: 1px 2px rgb(48, 1, 1);
+    justify-content: space-around;
+}
+.flex-headline{
+    background-color: rgb(129, 6, 6);
+    padding: 5px;
+    margin: 3px;
+    border: 5px double black;
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    position: relative;
+}
+.flex-card-container{
+    display: flex;
+    direction: row;
+    flex-wrap: wrap;
+    padding: 50px;
+    margin-bottom: 10px;
+    justify-content: space-around;
+}
+.flex-card{
+    background-color: lightgrey;
+    padding: 5px;
+    margin: 3px;
+    border: 5px double rgb(245, 238, 238);
+    font-size: 100px;
+    text-align: center;
+    position: relative;
+}
+.flex-container-login{ 
+    display: flex;
+    height: 10em;
+    width: 20em;
+    border: solid;
+    justify-content: self;
+}
+
 .viewport-container{
     height: 100vh;
     width: 100vw;
