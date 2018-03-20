@@ -14,9 +14,8 @@
     grid-template-rows:  8%  1fr 10%;
     grid-template-columns: auto;
 }
-.align-content{
+.align-items-center{
     align-items: center;
-    align-content: center;
 }
 .justify-center{
     justify-content: center;
@@ -26,6 +25,9 @@
 }
 .align-self-center{
     align-self: center;
+}
+.align-item-top{
+    align-self: auto; 
 }
 .navbar{
 grid-row: 1 / 2;
@@ -46,8 +48,8 @@ grid-column: 1 /2;
 .Horizontal-split{
     display: grid;
     height: 100%;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
     }
 .flex-row{
     display: flex;
@@ -62,13 +64,8 @@ grid-column: 1 /2;
 }
 .flex-wrap{flex-wrap: wrap;
 }
-
-.about-text{
-    display: flex;
-    text-align: center;
-    font-size: 20px;
-}
 .login-box{
+    margin: 5px;
     height: 10em;
     width: 30em;
     border: double 1px black;
@@ -78,6 +75,14 @@ grid-column: 1 /2;
     height: 2em;
     width: 8em;
     background-color: antiquewhite;
-    border: solid 1px black;
-    text-align: center;
+    border: solid 1px black;    
+
+}
+.text-box{
+    height: 10em;
+    width: 40em;
+    background-color: lightgray;
+    border: double 0.5px black;
+    
+    
 }
