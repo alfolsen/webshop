@@ -14,9 +14,8 @@
     grid-template-rows: 12%  1fr 10%;
     grid-template-columns: auto;
 }
-.align-content{
+.align-items-center{
     align-items: center;
-    align-content: center;
 }
 .align-end{
     align-content: flex-end
@@ -39,10 +38,16 @@
 .justify-even{
     justify-content: space-evenly;    
 }
+<<<<<<< HEAD
 .justify-content-space-around{
     justify-content: space-around;
 }
 
+=======
+.align-item-top{
+    align-self: auto; 
+}
+>>>>>>> 7b4e117458abe96d59c5775789c6424f7407a84f
 .navbar{
 grid-row: 1 / 2;
 grid-column: 1  / 2;
@@ -82,8 +87,8 @@ grid-column: 1 /2;
 .Horizontal-split{
     display: grid;
     height: 100%;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
     }
 
 .flex-row{
@@ -126,14 +131,12 @@ grid-column: 1 /2;
 }
 .flex-wrap{flex-wrap: wrap;
 }
-
-.about-text{
-    display: flex;
-    text-align: center;
-    font-size: 20px;
-}
 .login-box{
+<<<<<<< HEAD
     margin: 5em;
+=======
+    margin: 5px;
+>>>>>>> 7b4e117458abe96d59c5775789c6424f7407a84f
     height: 10em;
     width: 30em;
     border: double 1px black;
@@ -143,9 +146,10 @@ grid-column: 1 /2;
     height: 2em;
     width: 8em;
     background-color: antiquewhite;
-    border: solid 1px black;
-    text-align: center;
+    border: solid 1px black;    
+
 }
+<<<<<<< HEAD
 /*padding*/
 .padding-2{
     padding:2px;
@@ -179,3 +183,13 @@ grid-column: 1 /2;
     -moz-box-shadow:    inset 1px 1px 10px #333;
     box-shadow:         inset 1px 1px 10px #333;
 }
+=======
+.text-box{
+    height: 10em;
+    width: 40em;
+    background-color: lightgray;
+    border: double 0.5px black;
+    
+    
+}
+>>>>>>> 7b4e117458abe96d59c5775789c6424f7407a84f
