@@ -38,16 +38,10 @@
 .justify-even{
     justify-content: space-evenly;    
 }
-<<<<<<< HEAD
 .justify-content-space-around{
     justify-content: space-around;
 }
 
-=======
-.align-item-top{
-    align-self: auto; 
-}
->>>>>>> 7b4e117458abe96d59c5775789c6424f7407a84f
 .navbar{
 grid-row: 1 / 2;
 grid-column: 1  / 2;
@@ -132,11 +126,7 @@ grid-column: 1 /2;
 .flex-wrap{flex-wrap: wrap;
 }
 .login-box{
-<<<<<<< HEAD
     margin: 5em;
-=======
-    margin: 5px;
->>>>>>> 7b4e117458abe96d59c5775789c6424f7407a84f
     height: 10em;
     width: 30em;
     border: double 1px black;
@@ -149,7 +139,6 @@ grid-column: 1 /2;
     border: solid 1px black;    
 
 }
-<<<<<<< HEAD
 /*padding*/
 .padding-2{
     padding:2px;
@@ -183,13 +172,3 @@ grid-column: 1 /2;
     -moz-box-shadow:    inset 1px 1px 10px #333;
     box-shadow:         inset 1px 1px 10px #333;
 }
-=======
-.text-box{
-    height: 10em;
-    width: 40em;
-    background-color: lightgray;
-    border: double 0.5px black;
-    
-    
-}
->>>>>>> 7b4e117458abe96d59c5775789c6424f7407a84f
